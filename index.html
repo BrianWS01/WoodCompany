@@ -1054,37 +1054,37 @@
             <div class="card-body p-4 p-md-5">
               <div class="row g-4 mb-4">
                 <div class="col-md-6">
-                  <label for="name" class="form-label fw-semibold text-wood-900 mb-2 d-flex align-items-center">
-                    <i class="bi bi-person-fill me-2 text-wood-600"></i>Nome *
+                  <label for="name" class="form-label fw-semibold text-wood-900 mb-3">
+                    Nome <span class="text-danger">*</span>
                   </label>
                   <div class="input-group input-group-lg">
-                    <span class="input-group-text bg-white border-end-0">
-                      <i class="bi bi-person text-wood-400"></i>
+                    <span class="input-group-text">
+                      <i class="bi bi-person"></i>
                     </span>
-                    <input type="text" class="form-control border-start-0" id="name" name="name" required placeholder="Seu nome completo">
+                    <input type="text" class="form-control" id="name" name="name" required placeholder="Seu nome completo">
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <label for="phone" class="form-label fw-semibold text-wood-900 mb-2 d-flex align-items-center">
-                    <i class="bi bi-whatsapp me-2 text-wood-600"></i>WhatsApp *
+                  <label for="phone" class="form-label fw-semibold text-wood-900 mb-3">
+                    WhatsApp <span class="text-danger">*</span>
                   </label>
                   <div class="input-group input-group-lg">
-                    <span class="input-group-text bg-white border-end-0">
-                      <i class="bi bi-phone text-wood-400"></i>
+                    <span class="input-group-text">
+                      <i class="bi bi-whatsapp"></i>
                     </span>
-                    <input type="tel" class="form-control border-start-0" id="phone" name="phone" required placeholder="(11) 97185-2633" pattern="[0-9()\s-]+">
+                    <input type="tel" class="form-control" id="phone" name="phone" required placeholder="(11) 97185-2633" pattern="[0-9()\s-]+">
                   </div>
                 </div>
               </div>
               <div class="mb-4">
-                <label for="service" class="form-label fw-semibold text-wood-900 mb-2 d-flex align-items-center">
-                  <i class="bi bi-briefcase-fill me-2 text-wood-600"></i>Tipo de Serviço *
+                <label for="service" class="form-label fw-semibold text-wood-900 mb-3">
+                  Tipo de Serviço <span class="text-danger">*</span>
                 </label>
                 <div class="input-group input-group-lg">
-                  <span class="input-group-text bg-white border-end-0">
-                    <i class="bi bi-list-ul text-wood-400"></i>
+                  <span class="input-group-text">
+                    <i class="bi bi-briefcase"></i>
                   </span>
-                  <select class="form-select border-start-0" id="service" name="service" required>
+                  <select class="form-select" id="service" name="service" required>
                     <option value="">Selecione uma opção</option>
                     <option value="desenvolvimento">Desenvolvimento de Software</option>
                     <option value="landing-page">Landing Page</option>
@@ -1094,14 +1094,14 @@
                 </div>
               </div>
               <div class="mb-4">
-                <label for="message" class="form-label fw-semibold text-wood-900 mb-2 d-flex align-items-center">
-                  <i class="bi bi-chat-left-text-fill me-2 text-wood-600"></i>Mensagem *
+                <label for="message" class="form-label fw-semibold text-wood-900 mb-3">
+                  Mensagem <span class="text-danger">*</span>
                 </label>
                 <div class="input-group">
-                  <span class="input-group-text bg-white border-end-0 align-items-start pt-3">
-                    <i class="bi bi-pencil text-wood-400"></i>
+                  <span class="input-group-text align-items-start pt-3">
+                    <i class="bi bi-chat-left-text"></i>
                   </span>
-                  <textarea class="form-control border-start-0" id="message" name="message" rows="5" required placeholder="Conte-nos sobre seu projeto..."></textarea>
+                  <textarea class="form-control" id="message" name="message" rows="5" required placeholder="Conte-nos sobre seu projeto..."></textarea>
                 </div>
               </div>
               <button type="submit" class="btn btn-wood-submit btn-lg w-100 py-3 fw-semibold">

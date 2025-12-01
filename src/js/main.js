@@ -89,9 +89,9 @@ if (contactForm) {
     // Encode message for URL
     const encodedMessage = encodeURIComponent(whatsappMessage);
     
-    // WhatsApp API URL - Replace 5511999999999 with your actual WhatsApp business number
-    // Format: https://wa.me/5511999999999?text=
-    const whatsappBusinessNumber = '5511999999999'; // Replace with your actual number
+    // WhatsApp API URL
+    // Format: https://wa.me/5511971852633?text=
+    const whatsappBusinessNumber = '5511971852633';
     const whatsappUrl = `https://wa.me/${whatsappBusinessNumber}?text=${encodedMessage}`;
     
     // Open WhatsApp in new tab
