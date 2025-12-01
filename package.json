@@ -1,0 +1,17 @@
+{
+  "name": "woodcompany-website",
+  "version": "1.0.0",
+  "description": "Site institucional WOODCOMPANY - Software, Landing Pages e E-commerce",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
+

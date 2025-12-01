@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WOODCOMPANY - Desenvolvimento de software, criação de landing pages e e-commerce. Soluções digitais personalizadas para seu negócio.">
+  <title>WOODCOMPANY - Software, Landing Pages e E-commerce</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="alternate icon" href="./favicon.svg">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./src/css/main.css">
+</head>
+<body>
+  
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="navbar">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#home">
+        <div class="logo-circle">
+          <img src="./src/images/logo.svg" alt="WOODCOMPANY Logo" class="logo-icon">
+        </div>
+        <span class="fw-bold fs-4 text-wood-800 ms-3">WOODCOMPANY</span>
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#products">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contato</a>
+          </li>
+          <li class="nav-item ms-3">
+            <button class="btn btn-link theme-toggle" id="theme-toggle" aria-label="Alternar tema">
+              <i class="bi bi-sun-fill theme-icon"></i>
+            </button>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="btn btn-wood" href="#contact">Orçamento</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center">
+          <div class="hero-badge mb-5">
+            <div class="hero-badge-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Estrela principal -->
+                <path d="M12 2L14 8.5L20 10L14 11.5L12 18L10 11.5L4 10L10 8.5L12 2Z" fill="var(--wood-800)"/>
+                <!-- Estrela pequena esquerda -->
+                <path d="M5 6L6 9L9 10L6 11L5 14L4 11L1 10L4 9L5 6Z" fill="var(--wood-600)" opacity="0.7"/>
+                <!-- Estrela pequena direita -->
+                <path d="M19 6L20 9L23 10L20 11L19 14L18 11L15 10L18 9L19 6Z" fill="var(--wood-700)" opacity="0.8"/>
+                <!-- Estrela pequena inferior -->
+                <path d="M8 15L8.5 17L10 17.5L8.5 18L8 20L7.5 18L6 17.5L7.5 17L8 15Z" fill="var(--wood-600)" opacity="0.6"/>
+                <path d="M16 16L16.4 17.6L18 18.2L16.4 18.8L16 20.4L15.6 18.8L14 18.2L15.6 17.6L16 16Z" fill="var(--wood-700)" opacity="0.7"/>
+              </svg>
+            </div>
+            <span class="hero-badge-text">SOLUÇÕES DIGITAIS DE ALTO IMPACTO</span>
+          </div>
+          <h1 class="display-1 fw-bold text-wood-900 mb-5">
+            Soluções Digitais que<br>
+            <span class="text-wood-800">Transformam Negócios</span>
+          </h1>
+          <p class="lead text-wood-700 mb-5" style="font-size: 1.375rem; font-weight: 500; max-width: 800px; margin: 0 auto;">
+            Criamos soluções digitais rápidas, modernas e orientadas a resultado para empresas que querem vender mais. Desenvolvimento de software, landing pages e e-commerce personalizados que impulsionam seus resultados.
+          </p>
+          <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center mb-5">
+            <a href="#contact" class="btn btn-wood btn-lg px-5 py-3">
+              Quero um Orçamento <i class="bi bi-arrow-right ms-2"></i>
+            </a>
+          </div>
+          <div class="d-flex flex-wrap justify-content-center gap-4 text-wood-600">
+            <div class="d-flex align-items-center">
+              <i class="bi bi-check-circle-fill text-wood-800 me-2"></i>
+              <span>Entrega Rápida</span>
+            </div>
+            <div class="d-flex align-items-center">
+              <i class="bi bi-check-circle-fill text-wood-800 me-2"></i>
+              <span>Suporte Contínuo</span>
+            </div>
+            <div class="d-flex align-items-center">
+              <i class="bi bi-check-circle-fill text-wood-800 me-2"></i>
+              <span>Resultados Comprovados</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-5">
+    <div class="container py-5">
+      <div class="text-center mb-5" style="margin-bottom: 4.5rem !important;">
+        <span class="badge bg-wood-100 text-wood-800 px-5 py-2.5 mb-4 d-inline-block fw-semibold" style="font-size: 0.875rem; letter-spacing: 0.1em; border-radius: 50px;">NOSSOS SERVIÇOS</span>
+        <h2 class="display-4 fw-bold text-wood-900 mb-4" style="font-size: clamp(2rem, 5vw, 3rem); line-height: 1.2;">Soluções Completas para seu Negócio</h2>
+        <p class="lead text-wood-700 mx-auto" style="max-width: 720px; font-size: 1.1875rem; line-height: 1.75;">
+          Oferecemos soluções digitais completas e personalizadas para transformar sua presença online e impulsionar seus resultados
+        </p>
+      </div>
+      
+      <div class="row g-5">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-wood-200 shadow-sm service-card">
+            <div class="service-number">01</div>
+            <div class="card-body">
+              <div class="service-icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <h3>Desenvolvimento de Software</h3>
+              <p>
+                Criamos aplicações web e mobile personalizadas, escaláveis e de alta performance para atender suas necessidades específicas.
+              </p>
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle-fill text-wood-800 me-2"></i>Aplicações Web Responsivas</li>
+                <li><i class="bi bi-check-circle-fill text-wood-800 me-2"></i>Apps Mobile Nativos</li>
+                <li><i class="bi bi-check-circle-fill text-wood-800 me-2"></i>Arquitetura Escalável</li>
+              </ul>
+              <div class="service-footer mt-auto pt-4">
+                <a href="#contact" class="btn btn-outline-wood w-100">
+                  Solicitar Orçamento <i class="bi bi-arrow-right ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-wood-200 shadow-sm service-card">
+            <div class="service-number">02</div>
+            <div class="card-body">
+              <div class="service-icon">
+                <i class="bi bi-file-earmark-text"></i>
+              </div>
+              <h3>Landing Pages</h3>
+              <p>
+                Landing pages otimizadas para conversão, com design moderno e estratégias de marketing digital para maximizar seus resultados.
+              </p>
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle-fill text-wood-800 me-2"></i>Design Moderno e Responsivo</li>
+                <li><i class="bi bi-check-circle-fill text-wood-800 me-2"></i>Otimização para Conversão</li>
+                <li><i class="bi bi-check-circle-fill text-wood-800 me-2"></i>Integração com Analytics</li>
+              </ul>
+              <div class="service-footer mt-auto pt-4">
+                <a href="#contact" class="btn btn-outline-wood w-100">
+                  Solicitar Orçamento <i class="bi bi-arrow-right ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-wood-200 shadow-sm service-card">
+            <div class="service-number">03</div>
+            <div class="card-body">
+              <div class="service-icon">
+                <i class="bi bi-cart"></i>
+              </div>
+              <h3>E-commerce</h3>
+              <p>
+                Lojas virtuais completas e otimizadas, com integração de pagamentos, gestão de estoque e experiência de compra excepcional.
+              </p>
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle-fill text-wood-800 me-2"></i>Integração de Pagamentos</li>
+                <li><i class="bi bi-check-circle-fill text-wood-800 me-2"></i>Gestão de Estoque</li>
+                <li><i class="bi bi-check-circle-fill text-wood-800 me-2"></i>Painel Administrativo</li>
+              </ul>
+              <div class="service-footer mt-auto pt-4">
+                <a href="#contact" class="btn btn-outline-wood w-100">
+                  Solicitar Orçamento <i class="bi bi-arrow-right ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="py-5 products-section">
+    <div class="container py-5">
+      <div class="text-center mb-5">
+        <h2 class="display-3 fw-bold text-white mb-4" style="font-size: clamp(2rem, 6vw, 3.5rem); line-height: 1.15; letter-spacing: -0.02em;">Nossos Produtos</h2>
+        <p class="lead text-white-50 mb-4 mx-auto" style="font-size: 1.125rem; line-height: 1.7; max-width: 600px;">
+          Soluções digitais completas para transformar seu negócio online e gerar resultados reais
+        </p>
+        <div class="carousel-controls d-inline-flex gap-3">
+          <button class="btn btn-outline-light rounded-circle carousel-control-prev-btn" type="button" data-bs-target="#productsCarousel" data-bs-slide="prev">
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <button class="btn btn-outline-light rounded-circle carousel-control-next-btn" type="button" data-bs-target="#productsCarousel" data-bs-slide="next">
+            <i class="bi bi-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div id="productsCarousel" class="carousel slide" data-bs-ride="false" data-bs-wrap="false">
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-4">
+                <div class="product-card">
+                  <div class="product-image product-image-1"></div>
+                  <div class="product-badge">
+                    <i class="bi bi-lightning-charge-fill"></i>
+                    <span>Alta Conversão</span>
+                  </div>
+                  <div class="product-content">
+                    <h3 class="h3 fw-bold text-white">Landing Pages</h3>
+                    <p>
+                      Páginas de alta conversão que transformam visitantes em clientes. Design moderno e otimizado para resultados reais.
+                    </p>
+                    <div class="product-features">
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Design Responsivo</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>SEO Otimizado</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Alta Performance</span>
+                      </div>
+                    </div>
+                    <a href="#contact" class="btn btn-outline-light btn-product">
+                      <span>Saiba mais</span> <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-6 col-lg-4">
+                <div class="product-card">
+                  <div class="product-image product-image-2"></div>
+                  <div class="product-badge">
+                    <i class="bi bi-star-fill"></i>
+                    <span>Profissional</span>
+                  </div>
+                  <div class="product-content">
+                    <h3 class="h3 fw-bold text-white">One Pages</h3>
+                    <p>
+                      Sites completos em uma única página. Perfeito para apresentar sua empresa de forma elegante e profissional.
+                    </p>
+                    <div class="product-features">
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Navegação Suave</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Design Moderno</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Carregamento Rápido</span>
+                      </div>
+                    </div>
+                    <a href="#contact" class="btn btn-outline-light btn-product">
+                      <span>Saiba mais</span> <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-6 col-lg-4">
+                <div class="product-card">
+                  <div class="product-image product-image-3"></div>
+                  <div class="product-badge">
+                    <i class="bi bi-cart-check-fill"></i>
+                    <span>Completo</span>
+                  </div>
+                  <div class="product-content">
+                    <h3 class="h3 fw-bold text-white">E-commerces</h3>
+                    <p>
+                      Lojas virtuais completas e otimizadas para vender mais. Do design à integração de pagamentos, tudo que você precisa.
+                    </p>
+                    <div class="product-features">
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Gateway de Pagamento</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Painel Administrativo</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Gestão de Estoque</span>
+                      </div>
+                    </div>
+                    <a href="#contact" class="btn btn-outline-light btn-product">
+                      <span>Saiba mais</span> <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-4">
+                <div class="product-card">
+                  <div class="product-image product-image-4"></div>
+                  <div class="product-badge">
+                    <i class="bi bi-shield-check-fill"></i>
+                    <span>Suporte 24/7</span>
+                  </div>
+                  <div class="product-content">
+                    <h3 class="h3 fw-bold text-white">Manutenção de Sites</h3>
+                    <p>
+                      Suporte contínuo e atualizações para manter seu site sempre funcionando perfeitamente e seguro.
+                    </p>
+                    <div class="product-features">
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Atualizações Regulares</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Backup Automático</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Monitoramento 24/7</span>
+                      </div>
+                    </div>
+                    <a href="#contact" class="btn btn-outline-light btn-product">
+                      <span>Saiba mais</span> <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-6 col-lg-4">
+                <div class="product-card">
+                  <div class="product-image product-image-5"></div>
+                  <div class="product-badge">
+                    <i class="bi bi-gear-fill"></i>
+                    <span>Sob Medida</span>
+                  </div>
+                  <div class="product-content">
+                    <h3 class="h3 fw-bold text-white">Desenvolvimento Customizado</h3>
+                    <p>
+                      Soluções sob medida desenvolvidas especialmente para suas necessidades específicas e objetivos de negócio.
+                    </p>
+                    <div class="product-features">
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Análise Personalizada</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Desenvolvimento Ágil</span>
+                      </div>
+                      <div class="feature-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Soluções Escaláveis</span>
+                      </div>
+                    </div>
+                    <a href="#contact" class="btn btn-outline-light btn-product">
+                      <span>Saiba mais</span> <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators-wrapper mt-5">
+          <div class="carousel-indicators position-relative justify-content-center">
+            <button type="button" data-bs-target="#productsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#productsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats-section py-5">
+    <div class="container py-5">
+      <div class="row g-4">
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="bi bi-folder-check"></i>
+            </div>
+            <div class="stat-number display-3 fw-bold mb-2" data-count="50">0</div>
+            <div class="stat-label">Projetos Entregues</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="bi bi-people-fill"></i>
+            </div>
+            <div class="stat-number display-3 fw-bold mb-2" data-count="30">0</div>
+            <div class="stat-label">Clientes Satisfeitos</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="bi bi-calendar-check"></i>
+            </div>
+            <div class="stat-number display-3 fw-bold mb-2" data-count="2">0</div>
+            <div class="stat-label">Anos de Experiência</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="stat-number display-3 fw-bold mb-2" data-count="98">0</div>
+            <div class="stat-label">% de Satisfação</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials-section py-5">
+    <div class="container py-5">
+      <div class="text-center mb-5">
+        <h2 class="display-4 fw-bold text-wood-900 mb-3">O que nossos clientes dizem</h2>
+        <p class="lead text-wood-700 mx-auto" style="max-width: 700px; font-size: 1.125rem;">
+          Veja o que nossos clientes têm a dizer sobre o trabalho da WOODCOMPANY
+        </p>
+      </div>
+      
+      <div class="testimonials-carousel-wrapper">
+        <div class="testimonials-track">
+          <div class="testimonials-slide">
+            <!-- Depoimento 1 -->
+            <div class="testimonial-item">
+              <div class="testimonial-card">
+                <div class="testimonial-quote">
+                  <i class="bi bi-quote"></i>
+                </div>
+                <p class="testimonial-text">
+                  O e-commerce que desenvolveram superou todas as expectativas. Interface intuitiva, performance excelente e suporte impecável.
+                </p>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar testimonial-avatar-1"></div>
+                  <div class="testimonial-info">
+                    <div class="testimonial-name">João Santos</div>
+                    <div class="testimonial-role">Diretor de Marketing • FashionBrand</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Depoimento 2 -->
+            <div class="testimonial-item">
+              <div class="testimonial-card">
+                <div class="testimonial-quote">
+                  <i class="bi bi-quote"></i>
+                </div>
+                <p class="testimonial-text">
+                  Nossa one page ficou incrível! Conseguiram capturar perfeitamente a essência da nossa marca. Recomendo sem hesitação.
+                </p>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar testimonial-avatar-2"></div>
+                  <div class="testimonial-info">
+                    <div class="testimonial-name">Ana Costa</div>
+                    <div class="testimonial-role">Fundadora • ConsultoriaPlus</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Depoimento 3 -->
+            <div class="testimonial-item">
+              <div class="testimonial-card">
+                <div class="testimonial-quote">
+                  <i class="bi bi-quote"></i>
+                </div>
+                <p class="testimonial-text">
+                  Trabalho de altíssima qualidade. A landing gerou resultados desde o primeiro dia. Equipe muito profissional e atenciosa.
+                </p>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar testimonial-avatar-3"></div>
+                  <div class="testimonial-info">
+                    <div class="testimonial-name">Carlos Oliveira</div>
+                    <div class="testimonial-role">Gerente de Vendas • ProdutosOrg</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Depoimento 4 -->
+            <div class="testimonial-item">
+              <div class="testimonial-card">
+                <div class="testimonial-quote">
+                  <i class="bi bi-quote"></i>
+                </div>
+                <p class="testimonial-text">
+                  A WOODCOMPANY transformou completamente nossa presença digital. O e-commerce que desenvolveram superou todas as expectativas e aumentou nossas vendas em 250%.
+                </p>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar testimonial-avatar-4"></div>
+                  <div class="testimonial-info">
+                    <div class="testimonial-name">Maria Silva</div>
+                    <div class="testimonial-role">CEO • TechStore</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Depoimento 5 -->
+            <div class="testimonial-item">
+              <div class="testimonial-card">
+                <div class="testimonial-quote">
+                  <i class="bi bi-quote"></i>
+                </div>
+                <p class="testimonial-text">
+                  Profissionalismo e qualidade excepcionais. A landing page que criaram gerou resultados incríveis e superou todas as metas estabelecidas.
+                </p>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar testimonial-avatar-5"></div>
+                  <div class="testimonial-info">
+                    <div class="testimonial-name">Roberto Alves</div>
+                    <div class="testimonial-role">Diretor Comercial • InovaçãoTech</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Depoimento 6 -->
+            <div class="testimonial-item">
+              <div class="testimonial-card">
+                <div class="testimonial-quote">
+                  <i class="bi bi-quote"></i>
+                </div>
+                <p class="testimonial-text">
+                  Equipe extremamente competente. O sistema de gestão que desenvolveram revolucionou nossos processos internos e aumentou nossa produtividade significativamente.
+                </p>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar testimonial-avatar-6"></div>
+                  <div class="testimonial-info">
+                    <div class="testimonial-name">Patricia Lima</div>
+                    <div class="testimonial-role">CTO • Solutions Corp</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Duplicar para efeito infinito -->
+            <!-- Depoimento 1 -->
+            <div class="testimonial-item">
+              <div class="testimonial-card">
+                <div class="testimonial-quote">
+                  <i class="bi bi-quote"></i>
+                </div>
+                <p class="testimonial-text">
+                  O e-commerce que desenvolveram superou todas as expectativas. Interface intuitiva, performance excelente e suporte impecável.
+                </p>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar testimonial-avatar-1"></div>
+                  <div class="testimonial-info">
+                    <div class="testimonial-name">João Santos</div>
+                    <div class="testimonial-role">Diretor de Marketing • FashionBrand</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Depoimento 2 -->
+            <div class="testimonial-item">
+              <div class="testimonial-card">
+                <div class="testimonial-quote">
+                  <i class="bi bi-quote"></i>
+                </div>
+                <p class="testimonial-text">
+                  Nossa one page ficou incrível! Conseguiram capturar perfeitamente a essência da nossa marca. Recomendo sem hesitação.
+                </p>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar testimonial-avatar-2"></div>
+                  <div class="testimonial-info">
+                    <div class="testimonial-name">Ana Costa</div>
+                    <div class="testimonial-role">Fundadora • ConsultoriaPlus</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Depoimento 3 -->
+            <div class="testimonial-item">
+              <div class="testimonial-card">
+                <div class="testimonial-quote">
+                  <i class="bi bi-quote"></i>
+                </div>
+                <p class="testimonial-text">
+                  Trabalho de altíssima qualidade. A landing gerou resultados desde o primeiro dia. Equipe muito profissional e atenciosa.
+                </p>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar testimonial-avatar-3"></div>
+                  <div class="testimonial-info">
+                    <div class="testimonial-name">Carlos Oliveira</div>
+                    <div class="testimonial-role">Gerente de Vendas • ProdutosOrg</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Depoimento 4 -->
+            <div class="testimonial-item">
+              <div class="testimonial-card">
+                <div class="testimonial-quote">
+                  <i class="bi bi-quote"></i>
+                </div>
+                <p class="testimonial-text">
+                  A WOODCOMPANY transformou completamente nossa presença digital. O e-commerce que desenvolveram superou todas as expectativas e aumentou nossas vendas em 250%.
+                </p>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar testimonial-avatar-4"></div>
+                  <div class="testimonial-info">
+                    <div class="testimonial-name">Maria Silva</div>
+                    <div class="testimonial-role">CEO • TechStore</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Depoimento 5 -->
+            <div class="testimonial-item">
+              <div class="testimonial-card">
+                <div class="testimonial-quote">
+                  <i class="bi bi-quote"></i>
+                </div>
+                <p class="testimonial-text">
+                  Profissionalismo e qualidade excepcionais. A landing page que criaram gerou resultados incríveis e superou todas as metas estabelecidas.
+                </p>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar testimonial-avatar-5"></div>
+                  <div class="testimonial-info">
+                    <div class="testimonial-name">Roberto Alves</div>
+                    <div class="testimonial-role">Diretor Comercial • InovaçãoTech</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Depoimento 6 -->
+            <div class="testimonial-item">
+              <div class="testimonial-card">
+                <div class="testimonial-quote">
+                  <i class="bi bi-quote"></i>
+                </div>
+                <p class="testimonial-text">
+                  Equipe extremamente competente. O sistema de gestão que desenvolveram revolucionou nossos processos internos e aumentou nossa produtividade significativamente.
+                </p>
+                <div class="testimonial-author">
+                  <div class="testimonial-avatar testimonial-avatar-6"></div>
+                  <div class="testimonial-info">
+                    <div class="testimonial-name">Patricia Lima</div>
+                    <div class="testimonial-role">CTO • Solutions Corp</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section id="why-choose-us" class="py-5 why-choose-section">
+    <div class="container py-5">
+      <div class="text-center mb-5">
+        <span class="badge bg-wood-100 text-wood-800 px-5 py-2.5 mb-4 d-inline-block fw-semibold" style="font-size: 0.875rem; letter-spacing: 0.1em; border-radius: 50px;">POR QUE ESCOLHER A WOODCOMPANY</span>
+        <h2 class="display-4 fw-bold text-wood-900 mb-4" style="font-size: clamp(2rem, 5vw, 3rem); line-height: 1.2;">Por que Escolher a WOODCOMPANY</h2>
+        <p class="lead text-wood-700 mx-auto" style="max-width: 720px; font-size: 1.1875rem; line-height: 1.75;">
+          Somos especialistas em transformar ideias em soluções digitais que geram resultados reais para seu negócio
+        </p>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="why-card">
+            <div class="why-icon">
+              <i class="bi bi-lightning-charge-fill"></i>
+            </div>
+            <h3 class="h4 fw-bold text-wood-900 mb-3">Entrega Rápida</h3>
+            <p class="text-wood-700 mb-0">
+              Desenvolvemos seu projeto com agilidade sem comprometer a qualidade. Entregas em prazos recordes.
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="why-card">
+            <div class="why-icon">
+              <i class="bi bi-check-circle-fill"></i>
+            </div>
+            <h3 class="h4 fw-bold text-wood-900 mb-3">Qualidade Garantida</h3>
+            <p class="text-wood-700 mb-0">
+              Código limpo, design moderno e soluções escaláveis. Garantimos a excelência em cada projeto entregue.
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="why-card">
+            <div class="why-icon">
+              <i class="bi bi-headset"></i>
+            </div>
+            <h3 class="h4 fw-bold text-wood-900 mb-3">Suporte Contínuo</h3>
+            <p class="text-wood-700 mb-0">
+              Acompanhamento completo após a entrega. Suporte técnico disponível para garantir o sucesso do seu projeto.
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="why-card">
+            <div class="why-icon">
+              <i class="bi bi-graph-up-arrow"></i>
+            </div>
+            <h3 class="h4 fw-bold text-wood-900 mb-3">Resultados Comprovados</h3>
+            <p class="text-wood-700 mb-0">
+              Nossos projetos geram resultados mensuráveis. Aumento de conversões, vendas e engajamento comprovados.
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="why-card">
+            <div class="why-icon">
+              <i class="bi bi-people-fill"></i>
+            </div>
+            <h3 class="h4 fw-bold text-wood-900 mb-3">Equipe Especializada</h3>
+            <p class="text-wood-700 mb-0">
+              Profissionais experientes e atualizados com as melhores práticas e tecnologias do mercado.
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="why-card">
+            <div class="why-icon">
+              <i class="bi bi-wallet2"></i>
+            </div>
+            <h3 class="h4 fw-bold text-wood-900 mb-3">Melhor Custo-Benefício</h3>
+            <p class="text-wood-700 mb-0">
+              Soluções personalizadas com investimento justo. Máximo retorno sobre investimento para seu negócio.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container py-5">
+      <div class="text-center mb-5">
+        <span class="badge bg-white text-wood-800 px-4 py-2 mb-4 shadow-sm">Sobre Nós</span>
+        <h2 class="display-4 fw-bold text-wood-900 mb-4">Transformando Ideias em Soluções Digitais</h2>
+        <p class="lead text-wood-700 mx-auto" style="max-width: 650px;">
+          Somos especialistas em criar soluções digitais que impulsionam o crescimento dos nossos clientes
+        </p>
+      </div>
+      
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6">
+          <h3 class="h2 fw-bold text-wood-900 mb-4">Nossa História</h3>
+          <p class="text-wood-700 mb-4">
+            A WOODCOMPANY nasceu da paixão por tecnologia e do desejo de transformar desafios em oportunidades. 
+            Com uma equipe experiente e apaixonada por inovação, entregamos soluções personalizadas que impulsionam 
+            o crescimento dos nossos clientes.
+          </p>
+          <p class="text-wood-700">
+            Nossa missão é transformar ideias em realidade através de tecnologia de ponta, design moderno e 
+            estratégias eficazes. Acreditamos que cada projeto é único e merece atenção especial para alcançar 
+            os melhores resultados possíveis.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <div class="card border-wood-200 shadow">
+            <div class="card-body p-4">
+              <h3 class="h4 fw-bold text-wood-900 mb-4">Nossos Valores</h3>
+              <div class="d-flex mb-3">
+                <div class="value-icon me-3">
+                  <i class="bi bi-check-circle-fill"></i>
+                </div>
+                <div>
+                  <h4 class="h6 fw-bold text-wood-900 mb-1">Excelência</h4>
+                  <p class="text-wood-700 mb-0">Buscamos sempre a excelência em cada projeto entregue.</p>
+                </div>
+              </div>
+              <div class="d-flex mb-3">
+                <div class="value-icon me-3">
+                  <i class="bi bi-people-fill"></i>
+                </div>
+                <div>
+                  <h4 class="h6 fw-bold text-wood-900 mb-1">Inovação</h4>
+                  <p class="text-wood-700 mb-0">Estamos sempre à frente com as melhores tecnologias.</p>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="value-icon me-3">
+                  <i class="bi bi-heart-fill"></i>
+                </div>
+                <div>
+                  <h4 class="h6 fw-bold text-wood-900 mb-1">Compromisso</h4>
+                  <p class="text-wood-700 mb-0">Nosso compromisso é com o sucesso dos nossos clientes.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="py-5">
+    <div class="container py-5">
+      <div class="text-center mb-5">
+        <span class="badge bg-wood-100 text-wood-800 px-4 py-2 mb-4">FAQ</span>
+        <h2 class="display-4 fw-bold text-wood-900 mb-4">Perguntas Frequentes</h2>
+        <p class="lead text-wood-700 mx-auto" style="max-width: 650px;">
+          Encontre respostas para as dúvidas mais comuns sobre nossos serviços
+        </p>
+      </div>
+      
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item border-wood-200 mb-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                  Como funciona o processo de desenvolvimento?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-wood-700">
+                  Nosso processo é dividido em etapas claras: primeiro realizamos uma reunião de descoberta para entender suas necessidades, 
+                  depois criamos um planejamento detalhado e apresentamos uma proposta. Após aprovação, iniciamos o desenvolvimento com 
+                  acompanhamento constante e entregas incrementais, garantindo que você acompanhe cada etapa do projeto.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item border-wood-200 mb-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                  Quanto tempo leva para desenvolver um projeto?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-wood-700">
+                  O prazo varia conforme a complexidade e o escopo do projeto. Uma landing page pode levar de 1 a 2 semanas, 
+                  um e-commerce completo de 4 a 8 semanas, e sistemas personalizados podem levar de 8 a 16 semanas. 
+                  Sempre apresentamos um cronograma detalhado na proposta inicial.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item border-wood-200 mb-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                  Vocês oferecem suporte após a entrega?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-wood-700">
+                  Sim! Oferecemos suporte técnico contínuo após a entrega do projeto. Temos planos de manutenção mensal 
+                  que incluem atualizações de segurança, correções de bugs e suporte técnico. Também oferecemos treinamento 
+                  para sua equipe utilizar as ferramentas desenvolvidas.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item border-wood-200 mb-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                  Como posso pagar pelos serviços?
+                </button>
+              </h2>
+              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-wood-700">
+                  Aceitamos pagamento via PIX, transferência bancária (TED) ou cartão de crédito. Para projetos maiores, 
+                  trabalhamos com parcelamento em até 12x sem juros no cartão. O pagamento geralmente é dividido em etapas 
+                  conforme o andamento do projeto.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item border-wood-200 mb-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                  Vocês trabalham com empresas de qualquer tamanho?
+                </button>
+              </h2>
+              <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-wood-700">
+                  Sim! Trabalhamos com empresas de todos os portes, desde startups até grandes corporações, além de profissionais 
+                  autônomos e empreendedores. Adaptamos nossos serviços e valores conforme o tamanho e necessidades de cada cliente.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item border-wood-200 mb-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                  Posso ver exemplos de projetos anteriores?
+                </button>
+              </h2>
+              <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-wood-700">
+                  Claro! Podemos agendar uma reunião para apresentar cases específicos relacionados ao seu tipo de projeto e discutir como podemos aplicar essas experiências no seu negócio.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item border-wood-200 mb-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">
+                  Vocês oferecem garantia nos projetos?
+                </button>
+              </h2>
+              <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-wood-700">
+                  Sim! Oferecemos garantia de 90 dias para correção de bugs e ajustes necessários após a entrega. Além disso, 
+                  garantimos que o projeto funcione perfeitamente em todos os navegadores e dispositivos conforme especificado 
+                  na proposta inicial.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item border-wood-200 mb-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq9">
+                  Como funciona o processo de aprovação e revisão?
+                </button>
+              </h2>
+              <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-wood-700">
+                  Trabalhamos de forma colaborativa! Após cada etapa, enviamos o projeto para sua aprovação. Você tem até 
+                  3 dias úteis para revisar e solicitar ajustes. Mantemos você informado sobre cada etapa do desenvolvimento 
+                  através de atualizações regulares e reuniões quando necessário.
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container py-5">
+      <div class="text-center mb-5">
+        <span class="badge bg-wood-100 text-wood-800 px-4 py-2 mb-4">Contato</span>
+        <h2 class="display-4 fw-bold text-wood-900 mb-4">Vamos Conversar Sobre Seu Projeto</h2>
+        <p class="lead text-wood-700 mx-auto" style="max-width: 650px;">
+          Estamos prontos para transformar suas ideias em realidade. Entre em contato e descubra como podemos ajudar seu negócio a crescer.
+        </p>
+      </div>
+      
+      <div class="row g-4 mb-5">
+        <div class="col-md-4">
+          <div class="card h-100 border-wood-200 shadow-sm text-center">
+            <div class="card-body p-4">
+              <div class="contact-icon mb-3">
+                <i class="bi bi-envelope"></i>
+              </div>
+              <h3 class="h6 fw-bold text-wood-900 mb-2">E-mail</h3>
+              <p class="text-wood-700 mb-0">woodcompanyyy@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="card h-100 border-wood-200 shadow-sm text-center">
+            <div class="card-body p-4">
+              <div class="contact-icon mb-3">
+                <i class="bi bi-telephone"></i>
+              </div>
+              <h3 class="h6 fw-bold text-wood-900 mb-2">Telefone</h3>
+              <p class="text-wood-700 mb-0">(11) 97185-2633</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="card h-100 border-wood-200 shadow-sm text-center">
+            <div class="card-body p-4">
+              <div class="contact-icon mb-3">
+                <i class="bi bi-geo-alt"></i>
+              </div>
+              <h3 class="h6 fw-bold text-wood-900 mb-2">Localização</h3>
+              <p class="text-wood-700 mb-0">São Paulo, Brasil</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-12">
+          <form class="card border-wood-200 shadow-sm" id="contact-form">
+            <div class="card-body p-4 p-md-5">
+              <div class="row g-4 mb-4">
+                <div class="col-md-6">
+                  <label for="name" class="form-label fw-semibold text-wood-900 mb-2 d-flex align-items-center">
+                    <i class="bi bi-person-fill me-2 text-wood-600"></i>Nome *
+                  </label>
+                  <div class="input-group input-group-lg">
+                    <span class="input-group-text bg-white border-end-0">
+                      <i class="bi bi-person text-wood-400"></i>
+                    </span>
+                    <input type="text" class="form-control border-start-0" id="name" name="name" required placeholder="Seu nome completo">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="phone" class="form-label fw-semibold text-wood-900 mb-2 d-flex align-items-center">
+                    <i class="bi bi-whatsapp me-2 text-wood-600"></i>WhatsApp *
+                  </label>
+                  <div class="input-group input-group-lg">
+                    <span class="input-group-text bg-white border-end-0">
+                      <i class="bi bi-phone text-wood-400"></i>
+                    </span>
+                    <input type="tel" class="form-control border-start-0" id="phone" name="phone" required placeholder="(11) 97185-2633" pattern="[0-9()\s-]+">
+                  </div>
+                </div>
+              </div>
+              <div class="mb-4">
+                <label for="service" class="form-label fw-semibold text-wood-900 mb-2 d-flex align-items-center">
+                  <i class="bi bi-briefcase-fill me-2 text-wood-600"></i>Tipo de Serviço *
+                </label>
+                <div class="input-group input-group-lg">
+                  <span class="input-group-text bg-white border-end-0">
+                    <i class="bi bi-list-ul text-wood-400"></i>
+                  </span>
+                  <select class="form-select border-start-0" id="service" name="service" required>
+                    <option value="">Selecione uma opção</option>
+                    <option value="desenvolvimento">Desenvolvimento de Software</option>
+                    <option value="landing-page">Landing Page</option>
+                    <option value="ecommerce">E-commerce</option>
+                    <option value="outro">Outro</option>
+                  </select>
+                </div>
+              </div>
+              <div class="mb-4">
+                <label for="message" class="form-label fw-semibold text-wood-900 mb-2 d-flex align-items-center">
+                  <i class="bi bi-chat-left-text-fill me-2 text-wood-600"></i>Mensagem *
+                </label>
+                <div class="input-group">
+                  <span class="input-group-text bg-white border-end-0 align-items-start pt-3">
+                    <i class="bi bi-pencil text-wood-400"></i>
+                  </span>
+                  <textarea class="form-control border-start-0" id="message" name="message" rows="5" required placeholder="Conte-nos sobre seu projeto..."></textarea>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-wood-submit btn-lg w-100 py-3 fw-semibold">
+                <i class="bi bi-whatsapp me-2"></i>Enviar via WhatsApp
+              </button>
+              <p class="text-muted text-center mt-3 mb-0"><small>* Campos obrigatórios</small></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-wood-900 text-white py-5">
+    <div class="container">
+      <div class="row g-4 mb-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="d-flex align-items-center mb-3">
+            <div class="logo-circle-footer me-3">
+              <img src="./src/images/logo.svg" alt="WOODCOMPANY Logo" class="logo-icon-footer">
+            </div>
+            <span class="fw-bold fs-5">WOODCOMPANY</span>
+          </div>
+          <p class="text-wood-200" style="opacity: 0.9;">Soluções digitais que transformam negócios.</p>
+        </div>
+        
+        <div class="col-md-6 col-lg-3">
+          <h5 class="fw-bold mb-3">Serviços</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#services" class="text-wood-200 text-decoration-none hover-white">Desenvolvimento</a></li>
+            <li class="mb-2"><a href="#services" class="text-wood-200 text-decoration-none hover-white">Landing Pages</a></li>
+            <li class="mb-2"><a href="#services" class="text-wood-200 text-decoration-none hover-white">E-commerce</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-md-6 col-lg-3">
+          <h5 class="fw-bold mb-3">Empresa</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#about" class="text-wood-200 text-decoration-none hover-white">Sobre</a></li>
+            <li class="mb-2"><a href="#contact" class="text-wood-200 text-decoration-none hover-white">Contato</a></li>
+            <li class="mb-2"><a href="#faq" class="text-wood-200 text-decoration-none hover-white">FAQ</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-md-6 col-lg-3">
+          <h5 class="fw-bold mb-3">Redes Sociais</h5>
+          <div class="d-flex gap-3">
+            <a href="#" class="social-icon" aria-label="LinkedIn">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/woodcompanyyy/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <hr class="border-wood-800 my-4">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="text-wood-200 mb-2 mb-md-0">&copy; 2024 WOODCOMPANY. Todos os direitos reservados.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <div class="d-flex justify-content-center justify-content-md-end gap-4">
+            <a href="#" class="text-wood-200 text-decoration-none hover-white" style="font-size: 0.875rem;">Política de Privacidade</a>
+            <a href="#" class="text-wood-200 text-decoration-none hover-white" style="font-size: 0.875rem;">Termos de Uso</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button id="scroll-to-top" class="scroll-to-top-btn position-fixed bottom-0 end-0 m-4" aria-label="Voltar ao topo">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script type="module" src="./src/js/main.js"></script>
+</body>
+</html>
