@@ -284,6 +284,24 @@ p {
   color: var(--text-primary) !important;
 }
 
+/* Navbar Toggler (Menu Hamburguer) */
+[data-theme="dark"] .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+[data-theme="dark"] .navbar-toggler:hover {
+  border-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+[data-theme="dark"] .navbar-toggler:focus {
+  border-color: white !important;
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+[data-theme="dark"] .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
 /* Theme Toggle Button */
 .theme-toggle {
   background: transparent;
@@ -1137,6 +1155,13 @@ p {
 
 [data-theme="dark"] .why-choose-section {
   background: var(--bg-primary);
+}
+
+.why-badge {
+  font-size: 0.875rem;
+  letter-spacing: 0.1em;
+  padding: 0.625rem 2rem;
+  border-radius: 50px;
 }
 
 .why-choose-section::before {
@@ -2730,6 +2755,17 @@ section .lead {
   color: var(--text-primary);
 }
 
+[data-theme="dark"] .form-select option {
+  background: white;
+  color: #1a1a1a;
+}
+
+[data-theme="dark"] .form-select option:hover,
+[data-theme="dark"] .form-select option:checked {
+  background: var(--wood-800);
+  color: white;
+}
+
 [data-theme="dark"] #contact-form .form-control,
 [data-theme="dark"] #contact-form .form-select {
   background: var(--bg-tertiary);
@@ -2824,19 +2860,27 @@ section .lead {
   background: var(--bg-primary);
 }
 
+[data-theme="dark"] .accordion-item {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color) !important;
+}
+
 [data-theme="dark"] .accordion-button {
   background: var(--bg-secondary);
   color: var(--text-primary);
+  border: none !important;
 }
 
 [data-theme="dark"] .accordion-button:not(.collapsed) {
   background: var(--bg-tertiary);
   color: var(--text-primary);
+  border: none !important;
 }
 
 [data-theme="dark"] .accordion-body {
   background: var(--bg-secondary);
   color: var(--text-secondary);
+  border: none !important;
 }
 
 [data-theme="dark"] #contact .text-center h2,
@@ -2874,6 +2918,17 @@ section .lead {
   background: var(--bg-tertiary);
   border-color: var(--border-color);
   color: var(--text-primary);
+}
+
+[data-theme="dark"] #contact-form .form-select option {
+  background: white;
+  color: #1a1a1a;
+}
+
+[data-theme="dark"] #contact-form .form-select option:hover,
+[data-theme="dark"] #contact-form .form-select option:checked {
+  background: var(--wood-800);
+  color: white;
 }
 
 [data-theme="dark"] #contact-form .form-control::placeholder {
@@ -3124,6 +3179,17 @@ section .lead {
   .badge {
     font-size: 0.75rem;
     padding: 0.5rem 1rem;
+  }
+  
+  .why-badge {
+    font-size: 0.65rem !important;
+    padding: 0.5rem 0.875rem !important;
+    letter-spacing: 0.05em !important;
+    max-width: 90%;
+    text-align: center;
+    line-height: 1.4;
+    white-space: normal !important;
+    word-break: break-word;
   }
   
   /* Container Padding Mobile */
