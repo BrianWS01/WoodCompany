@@ -2871,10 +2871,18 @@ section .lead {
   border: none !important;
 }
 
+[data-theme="dark"] .accordion-button::after {
+  filter: brightness(0) invert(1);
+}
+
 [data-theme="dark"] .accordion-button:not(.collapsed) {
   background: var(--bg-tertiary);
   color: var(--text-primary);
   border: none !important;
+}
+
+[data-theme="dark"] .accordion-button:not(.collapsed)::after {
+  filter: brightness(0) invert(1);
 }
 
 [data-theme="dark"] .accordion-body {
