@@ -1,7 +1,7 @@
 {
   "name": "woodcompany-website",
   "version": "1.0.0",
-  "description": "Site institucional WOOD TEC COMPANY - Software, Landing Pages e E-commerce",
+  "description": "Site institucional WOODTEC COMPANY - Software, Landing Pages e E-commerce",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

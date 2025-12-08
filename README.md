@@ -1,6 +1,6 @@
-# WOOD TEC COMPANY - Site Institucional
+# WOODTEC COMPANY - Site Institucional
 
-Site institucional da WOOD TEC COMPANY desenvolvido com HTML, Tailwind CSS e JavaScript.
+Site institucional da WOODTEC COMPANY desenvolvido com HTML, Tailwind CSS e JavaScript.
 
 ## 🚀 Tecnologias
 
@@ -78,5 +78,5 @@ Edite o arquivo `index.html` para modificar textos, imagens e estrutura das seç
 
 ## 📄 Licença
 
-Todos os direitos reservados - WOOD TEC COMPANY © 2024
+Todos os direitos reservados - WOODTEC COMPANY © 2024
 
