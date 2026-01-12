@@ -310,8 +310,6 @@ p {
   min-height: 56px;
   transition: color 0.3s ease;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .navbar-brand .fw-bold.fs-4 {
@@ -3024,25 +3022,12 @@ section .lead {
   }
   
   .navbar-brand {
-    gap: 0.5rem;
-    flex: 1;
-    min-width: 0;
-    max-width: none;
+    gap: 0;
+    flex: 0;
   }
   
   .navbar-brand .fw-bold {
-    font-size: clamp(0.75rem, 3.5vw, 0.95rem);
-    min-height: 40px;
-    height: auto;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    flex: 1;
-    min-width: 0;
-  }
-  
-  .navbar-brand .fw-bold.ms-3 {
-    margin-left: 0.5rem !important;
+    display: none !important;
   }
   
   .navbar-toggler {
